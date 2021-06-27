@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="/images/url.png" alt="<%= title %>" class="icon" />
+      <h1>
+        <%= title %>        
+      </h1>
+      <p>Seu novo encurtador de URL!</p>
+    </div>
+    <div class="content">
+      <form method="POST" action="/new">
+        <div class="mb-3 input-group">
+          <input placeholder="Digite a URL a ser encurtada" name="url" class="form-control" />
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="submit">Encurtar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <table class="table table-striped table-responsive">
+      <thead>
+        <tr>
+          <th>Short URL</th>
+          <th>Full URL</th>
+          <th>Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <div class="geturls">
+          <p>
+          <h4>Lista de URL</h4>
+        </p>
+        </div>        
+        <% shortUrls.forEach(shortUrl=> { %>
+          <tr>
+            <td><a href="<%= shortUrl.code %>"><%= process.env.DOMAIN %><%= shortUrl.code %></a></td>
+            <td><a href="<%= shortUrl.url %>"><%= shortUrl.url %></a></td>
+            <td><a href="<%= shortUrl.createdAt %>"><%= shortUrl.createdAt %></a></td>
+          </tr>
+          <% }) %>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
