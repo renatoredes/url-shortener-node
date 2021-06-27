@@ -1,5 +1,7 @@
 # Url-shortener-node
-URL Shortener
+<h4>
+O objetivo deste projeto é criar um encurtador de url, os encurtadores de URL são recursos práticos quando desejamos compartilhar um Link, basicamente eles pegam uma url longa e a transformam numa url com poucos caracteres. 
+</h4>  
 
 ### Clone o Projeto com o comando
 
