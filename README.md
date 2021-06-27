@@ -5,7 +5,9 @@ Objetivo do projeto:  Encurtador de URL
 <h5>
 Os encurtadores de URL são recursos práticos quando desejamos compartilhar um Link, basicamente eles pegam uma url longa e a transformam numa url com poucos caracteres. 
 </h5>
-![short-url](https://user-images.githubusercontent.com/18330802/123530548-ff05a100-d6d1-11eb-863b-5a3f0d2fc094.png)
+
+![short-url](https://user-images.githubusercontent.com/18330802/123530551-0a58cc80-d6d2-11eb-9f64-403ec97aee1c.png)
+
   
 ### Clone o Projeto com o comando
 
