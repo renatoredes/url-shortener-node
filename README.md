@@ -1,10 +1,13 @@
 # Url-shortener-node
 <h4>
-Objetivo do projeto:  Encurtadar URL 
+Objetivo do projeto:  Encurtador de URL 
 </h4>  
 <h5>
 Os encurtadores de URL são recursos práticos quando desejamos compartilhar um Link, basicamente eles pegam uma url longa e a transformam numa url com poucos caracteres. 
 </h5>
+
+![short-url](https://user-images.githubusercontent.com/18330802/123530537-ded5e200-d6d1-11eb-88fe-13be36a9f14d.png)
+
   
 ### Clone o Projeto com o comando
 
