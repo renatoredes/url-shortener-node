@@ -4,7 +4,7 @@ URL Shortener
 ### Clone o Projeto com o comando 
 </br>
 
-* Git Clone
+* git clone
 
 ![git](https://user-images.githubusercontent.com/18330802/123530136-8d2b5880-d6cd-11eb-8762-bda9805fa21a.PNG)
 
