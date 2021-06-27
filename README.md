@@ -1,6 +1,6 @@
 # Url-shortener-node
 <h4>
-Objetivo do projeto: Encurtadar URL.
+Objetivo do projeto:  Encurtadar URL 
 </h4>  
 <h5>
 Os encurtadores de URL são recursos práticos quando desejamos compartilhar um Link, basicamente eles pegam uma url longa e a transformam numa url com poucos caracteres. 
