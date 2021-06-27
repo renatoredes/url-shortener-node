@@ -11,13 +11,11 @@ Os encurtadores de URL são recursos práticos quando desejamos compartilhar um 
   
 ### Clone o Projeto com o comando
 
-* git clone</br>
+* git clone https://github.com/renatoredes/url-shortener-node.git
 
-![git](https://user-images.githubusercontent.com/18330802/123530136-8d2b5880-d6cd-11eb-8762-bda9805fa21a.PNG)
 
 ### Navegue até a pasta do projeto
-* cd url-shortener-node</br>
-![cd-git](https://user-images.githubusercontent.com/18330802/123530347-7dad0f00-d6cf-11eb-9062-e9e874373577.PNG)
+* cd url-shortener-node
 
 
 ### Instalar as dependências do Node
